@@ -11322,4 +11322,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+.circle-image {
+    width: 60%; /* Ajusta este valor para controlar el tamaño de la imagen */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    border-radius: 50%; /* Opcional: asegura que la imagen sea redonda */
+    object-fit: cover; /* Ajusta la imagen para que encaje dentro del contenedor */
+}
 
